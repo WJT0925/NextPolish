@@ -49,3 +49,9 @@ RuntimeError: Could not find drmaa library.  Please specify its full path using 
 ---------------------------------------------------------------------------------------------------------------------------------
 
 Please setup the environment variable: DRMAA_LIBRARY_PATH, see `here <https://github.com/pygridtools/drmaa-python>`__ for more details.
+
+cram/cram_io.c:57:10: fatal error: bzlib.h: No such file or directory
+ #include <bzlib.h>
+          ^~~~~~~~~
+I have no root ,also if bzlib.h is installed, still there are some *.h else will show on error as same reason.
+
